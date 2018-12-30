@@ -1,0 +1,13 @@
+<?php
+/*
+=============================================
+ Name      : MWS Link Page v1.1.1
+ Translate : Mehmet Hanoğlu ( MaRZoCHi )
+ Site      : https://dle.net.tr/
+=============================================
+*/
+
+$lang['mwslp_0'] = "Error: Content not found";
+$lang['mwslp_1'] = "Error: Can not read informations";
+$lang['mwslp_2'] = "News-id undefined";
+$lang['mwslp_3'] = "Error";

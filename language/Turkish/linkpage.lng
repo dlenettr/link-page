@@ -1,0 +1,13 @@
+<?php
+/*
+=============================================
+ Name      : MWS Link Page v1.1.1
+ Translate : Mehmet Hanoğlu ( MaRZoCHi )
+ Site      : https://dle.net.tr/
+=============================================
+*/
+
+$lang['mwslp_0'] = "Hata: Konu bulunamadı";
+$lang['mwslp_1'] = "Hata: Bilgiler okunamıyor";
+$lang['mwslp_2'] = "News id belirtilmedi";
+$lang['mwslp_3'] = "Hata";
