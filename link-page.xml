@@ -6,6 +6,7 @@
 	<version>1.1.1</version>
 	<dleversion>13.0</dleversion>
 	<versioncompare>greater</versioncompare>
+	<upgradeurl>https://raw.githubusercontent.com/dlenettr/link-page/master/release.json</upgradeurl>
 	<mysqlinstall><![CDATA[]]></mysqlinstall>
 	<mysqlupgrade><![CDATA[]]></mysqlupgrade>
 	<mysqlenable><![CDATA[]]></mysqlenable>
