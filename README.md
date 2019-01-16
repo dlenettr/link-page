@@ -6,19 +6,19 @@ Tıpkı dosyaları yeni sayfada indirmek gibi faka sadece yüklenmiş dosyalarla
 
 ## Kurulum
 1) **.htaccess** dosyasını açın ve `RewriteEngine On` satırının altına ekleyin:
-    ```bash
-    # Link Page - start
-    RewriteRule ^indir/([0-9]+)(/?)$ index.php?do=linkpage&nid=$1 [L]
-    # Link Page - end
-    ```
+```bash
+# Link Page - start
+RewriteRule ^indir/([0-9]+)(/?)$ index.php?do=linkpage&nid=$1 [L]
+# Link Page - end
+```
 
 2) **fullstory.tpl** de aşağıdaki tag ile sayfa linkini çağırabilirsiniz :
 `{link-page}`
 
-    Örnek:
-    ```html
-    <a href="{link-page}">İndir</a>
-    ```
+Örnek:
+```html
+<a href="{link-page}">İndir</a>
+```
 
 ## Konfigürasyon
 Genelde indirme sitelerinde rastlanan bir yapıdadır. Konu ile ilgili tüm linkler ayrı bir sayfada geri sayım ile verilir. Geri sayım özelliğine sahip tpl dosyası modül arşivinde bulunmaktadır. İsteğinize göre kullanabilirsiniz.
@@ -86,12 +86,9 @@ Tüm ayarları engine/data/linkpage.conf.php dosyasından yapabilirsiniz.
 ![Ekran 3](/docs/screen3.png?raw=true)
 
 ## Tarihçe
-* Version: **1.1.1** ( 21.10.2018 ) - DLE 13.0+
-  * Çoklu dil desteği için düzenleme yapıldı
 
-* Version: **1.1** ( 28.09.2018 ) - DLE 13.0+
-  * DLE 13.0 uyumluluğu sağlandı.
-  * DLE eklenti sistemi ile uyumlu kurulum desteği eklendi.
-
-* Version: **1.0** ( 12.03.2018 ) - DLE 12.1, 12.0
-  * İlk versiyon
+| Version | Tarih | Uyumluluk | Yenilikler |
+| ------- | ----- | --------- | ---------- |
+|**1.1.1**|21.10.2018|13.0+|Çoklu dil desteği için düzenleme yapıldı.|
+|**1.1**|28.09.2018|13.0+|DLE 13.0 uyumluluğu sağlandı.<br>DLE eklenti sistemi ile uyumlu kurulum desteği eklendi.|
+|**1.0**|12.03.2018|12.0, 12.1|İlk sürüm|
