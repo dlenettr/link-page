@@ -1,5 +1,5 @@
 # Link Page
-<img src="https://img.shields.io/badge/dle-13.0+-007dad.svg"> <img src="https://img.shields.io/badge/lang-tr,en-ce600f.svg"> <img src="https://img.shields.io/badge/license-MIT-60ce0f.svg">
+<img src="https://img.shields.io/badge/dle-13.0+-007dad.svg"> <img src="https://img.shields.io/badge/lang-tr-ce600f.svg"> <img src="https://img.shields.io/badge/lang-en-ce600f.svg"> <img src="https://img.shields.io/badge/license-MIT-60ce0f.svg">
 
 Her konu için ekstra bir sayfa daha kullanma imkanı sunar.
 Tıpkı dosyaları yeni sayfada indirmek gibi faka sadece yüklenmiş dosyalarla sınırlı değil. Eklemiş olduğunu tüm ilave alanları, konuya eklenmiş resimleri fullstory.tpl de kullandığınız gibi özel tpl'ye ekleyebilirsiniz.
